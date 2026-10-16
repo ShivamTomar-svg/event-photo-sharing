@@ -1,0 +1,59 @@
+# ==========================================
+# Momento - Event Photo Sharing Platform
+# Root .gitignore
+# ==========================================
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.bak
+*.tmp
+*~
+
+# IDEs and Editors
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+
+# Backend (Maven & Java)
+backend/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
+backend/.apt_generated/
+backend/.mvn/timing.properties
+.mvn/timing.properties
+
+# Frontend (Node & Build Outputs)
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+frontend/dist-ssr/
+*.local
+
+# Environment & Secrets (Preserve .env.example)
+.env
+frontend/.env
+*.env.local
+*.env.*.local
+!.env.example
+!frontend/.env.example
